@@ -20,3 +20,5 @@ SC.get('/tracks', { genres: myGenre, bpm: { from: 60 } },
         document.getElementById("target"));
       }
 );
+
+<body onload="playSomeMusic('electronic')">
